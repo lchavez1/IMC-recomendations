@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IMC.Resultado">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblNombre"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontSize="20"
+                TextDecorations="Strikethrough"
+                   Margin="0,10,0,0"/>
+            <Label x:Name="lblIMC"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                Margin="0,20,0,0"/>
+            <Image x:Name="imgResultado" VerticalOptions="Center" HorizontalOptions="Center" Margin="10,20,10,0" WidthRequest="300"></Image>
+            <Label VerticalOptions="Center" 
+                HorizontalOptions="Center" Text="Recomendaciones:" TextColor="Green" Margin="0,20,0,0"/>
+            <Label x:Name="lblRecomendation"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" Margin="10,20,0,10" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

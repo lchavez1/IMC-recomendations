@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IMC.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout BackgroundColor="DarkBlue">
+        <!-- Place new controls here -->
+        <Label Text="HEALT APP" FontSize="50" TextColor="Green" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0, 20, 0, 0"></Label>
+        <Label Text="Nombre:" FontSize="20" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0, 20, 0, 0"></Label>
+        <Entry x:Name="txtNombre" Placeholder="Nombre"  HorizontalOptions="CenterAndExpand"
+           VerticalOptions="Center" Margin="10,5,5,10" MinimumWidthRequest="100" WidthRequest="400" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Green"></Entry>
+        <Label Text="Peso:" FontSize="20" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        <Entry x:Name="txtPeso" Placeholder="kg"  HorizontalOptions="CenterAndExpand"
+           VerticalOptions="CenterAndExpand" BackgroundColor="Green" Keyboard="Numeric" WidthRequest="90" HorizontalTextAlignment="Center" Margin="0,5,0,0" TextColor="White"></Entry>
+        <Label Text="Estatura:" FontSize="20" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        <Entry x:Name="txtEstatura" Placeholder="cm"  HorizontalOptions="CenterAndExpand"
+           VerticalOptions="CenterAndExpand" BackgroundColor="Green" Keyboard="Numeric" WidthRequest="90" HorizontalTextAlignment="Center" Margin="0,5,0,0" TextColor="White"></Entry>
+        <!--Button x:Name="btnRevisar" Text="Revisar" BackgroundColor="SkyBlue" Margin="0,20,0,0"-->
+        <ImageButton x:Name="btnRevisar" Margin="250,40,10,10" BackgroundColor="DarkBlue" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Check_green_circle.svg/600px-Check_green_circle.svg.png" WidthRequest="100" HeightRequest="100"></ImageButton>
+    </StackLayout>
+
+</ContentPage>
